@@ -1,0 +1,5 @@
+boxplot(mpg~cyl,data=mtcars, main="MPG Vs CYL",xlab="CYL", ylab="MPG") 
+boxplot(mpg~vs,data=mtcars, main="MPG Vs VS",xlab="VS", ylab="MPG") 
+boxplot(mpg~am,data=mtcars, main="MPG Vs AM", xlab="AM", ylab="MPG")
+boxplot(mpg~gear,data=mtcars, main="MPG Vs GEAR", xlab="GEAR", ylab="MPG")
+boxplot(mpg~carb,data=mtcars, main="MPG Vs GEAR",xlab="GEAR", ylab="MPG")
